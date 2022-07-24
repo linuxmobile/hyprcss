@@ -134,10 +134,24 @@ li {
     font-size: 13px;
 }
 
-p {
+.music-text {
     display: inline-block;
     color: #f9e2af;
     padding: 10px;
     font-size: 15px;
 }
 
+.wifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.wifi-text {
+    display: inline-block;
+    color: var(--gold);
+    padding: 10px;
+    font-size: 13px;
+}
