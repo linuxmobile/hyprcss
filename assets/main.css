@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: quicksand, sans-serif;
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #21202e;
+    --highlight-mid: #403d52;
+    --highligh-high: #524f67;
+}
+
+body {
+    background: url(./background.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tiling {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    margin: 5px;
+    width: 49%;
+    height: 98%;
+    border-radius: 10px;
+    background-color: #191724;
+}
+
+.right-top {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 5px;
+    width: 50%;
+    height: 48%;
+    border-radius: 10px;
+    background-color: #191724;
+}
+
+.right-bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 5px;
+    width: 50%;
+    height: 49%;
+    border-radius: 10px;
+    background-color: #191724;
+}
+
+.waybar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.waybar-window {
+    background-color: var(--base);
+    height: 40px;
+    max-width: 90%;
+    min-width: 30%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
