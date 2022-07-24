@@ -205,3 +205,27 @@ li {
     padding: 10px;
     font-size: 13px;
 }
+
+.datum {
+    margin-top: 1px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--love);
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+#time {
+    display: inline-block;
+    color: var(--love);
+    padding: 10px;
+    font-size: 13px;
+}
+
+.clock {
+    margin-top: 3px;
+}

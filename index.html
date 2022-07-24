@@ -50,12 +50,15 @@
             <div class="calendar">
                 <i class="fa-solid fa-calendar-days"></i><div id="datum" class="datum"></div>
             </div>
-            <div class="time"></div>
+            <div class="time">
+                <i class="fa-solid fa-clock"></i><div id="time" class="clock"></div>
+            </div>
         </div>
     </div>
     <script>
         function start() {
     Datum();
+    Clock();
 }
         function Datum(){
     var today = new Date();
@@ -77,6 +80,19 @@
     console.log(total);
 
     document.getElementById('datum').innerHTML = total;
+}
+function Clock(){
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    m = checkTime(m);
+    document.getElementById('time').innerHTML =
+        h + ":" + m;
+    var t = setTimeout(Clock, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
 }
     </script>
 </body>
