@@ -111,6 +111,9 @@ li {
     color: #fff;
     font-size: 10px;
     padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa {
@@ -121,3 +124,20 @@ li {
     color: var(--love);
     font-size: 14px;
 }
+
+.music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+p {
+    display: inline-block;
+    color: #f9e2af;
+    padding: 10px;
+    font-size: 15px;
+}
+
