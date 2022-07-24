@@ -81,4 +81,28 @@ body {
     min-width: 30%;
     border-radius: 15px;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workspaces {
+    background-color: var(--surface);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: var(--muted);
+    padding: 5px 10px;
+}
+
+.active {
+    color: var(--pine);
 }
