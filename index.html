@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>hyprland - startpage</title>
 </head>
-<body>
+<body onload="start()">
     <div class="tiling">
         <div class="left"></div>
         <div class="right-top"></div>
@@ -47,9 +47,37 @@
             <div class="volume">
                 <i class="fa-solid fa-volume-high"></i><p class="volume-mid">65%</p>
             </div>
-            <div class="calendar"></div>
+            <div class="calendar">
+                <i class="fa-solid fa-calendar-days"></i><div id="datum" class="datum"></div>
+            </div>
             <div class="time"></div>
         </div>
     </div>
+    <script>
+        function start() {
+    Datum();
+}
+        function Datum(){
+    var today = new Date();
+
+    var weekday = new Array(7);
+    weekday[0]=  "Sun";
+    weekday[1] = "Mon";
+    weekday[2] = "Tue";
+    weekday[3] = "Wed";
+    weekday[4] = "Thu";
+    weekday[5] = "Fri";
+    weekday[6] = "Sat";
+
+    var day = weekday[today.getDay()];
+
+    var d = today.getDate();
+
+    var total = day + '\xa0' + d;
+    console.log(total);
+
+    document.getElementById('datum').innerHTML = total;
+}
+    </script>
 </body>
 </html>

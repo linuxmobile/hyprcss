@@ -189,3 +189,19 @@ li {
     padding: 10px;
     font-size: 13px;
 }
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pine);
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+#datum {
+    display: inline-block;
+    color: var(--pine);
+    padding: 10px;
+    font-size: 13px;
+}
