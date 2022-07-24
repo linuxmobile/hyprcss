@@ -106,3 +106,18 @@ li {
 .active {
     color: var(--pine);
 }
+
+.tray {
+    color: #fff;
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+.fa {
+    padding: 13px;
+}
+
+.fa-bell {
+    color: var(--love);
+    font-size: 14px;
+}
