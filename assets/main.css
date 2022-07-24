@@ -3,6 +3,7 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: quicksand, sans-serif;
+    font-weight: 500;
     --base: #191724;
     --surface: #1f1d2e;
     --overlay: #26233a;
@@ -149,9 +150,26 @@ li {
     padding-left: 10px;
     font-size: 12px;
 }
+
 .wifi-text {
     display: inline-block;
     color: var(--gold);
+    padding: 10px;
+    font-size: 13px;
+}
+
+.updates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.update-text {
+    display: inline-block;
+    color: #8f2342;
     padding: 10px;
     font-size: 13px;
 }
