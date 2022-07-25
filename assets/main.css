@@ -13,6 +13,10 @@
     scroll-behavior: smooth;
     font-family: quicksand, sans-serif;
     font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     --base: #191724;
     --surface: #1f1d2e;
     --overlay: #26233a;
