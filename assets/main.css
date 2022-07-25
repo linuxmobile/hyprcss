@@ -105,6 +105,56 @@ body {
     font-size: 14px;
 }
 
+.neo-color1 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 0 ;
+    display: inline-block;
+    background-color: var(--love);
+}
+.neo-color2 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 5px;
+    display: inline-block;
+    background-color: var(--pine);
+}
+.neo-color3 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 0 ;
+    display: inline-block;
+    background-color: var(--gold);
+}
+.neo-color4 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 5px;
+    display: inline-block;
+    background-color: var(--foam);
+}
+.neo-color5 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 0 ;
+    display: inline-block;
+    background-color: var(--iris);
+}
+.neo-color6 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 5px;
+    display: inline-block;
+    background-color: var(--rose);
+}
+.neo-color7 {
+    width: 18px;
+    height: 4px;
+    margin: 10px 0 ;
+    display: inline-block;
+    background-color: var(--subtle);
+}
+
 .right-bottom {
     position: absolute;
     right: 0px;
