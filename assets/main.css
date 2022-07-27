@@ -362,3 +362,39 @@ li {
 .clock {
     margin-top: 3px;
 }
+
+@media (max-width: 1314px) {
+    .workspaces {
+        font-size: 6px;
+    }
+    .tray {
+        font-size: 6px;
+    }
+    .music {
+        font-size: 6px;
+    }
+    .music-text {
+        font-size: 8px;
+    }
+    .wifi {
+        font-size: 6px;
+    }
+    .wifi-text {
+        font-size: 8px;
+    }
+    .updates {
+        font-size: 6px;
+    }
+    .update-text{
+        font-size: 8px;
+    }
+    .volume {
+        font-size: 6px;
+    }
+    .calendar{
+        font-size: 6px;
+    }
+    .time {
+        font-size: 6px;
+    }
+}
